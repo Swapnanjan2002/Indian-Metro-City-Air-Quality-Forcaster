@@ -1,4 +1,6 @@
-Indian Metro City Air Quality (PM2.5) Forecaster
+Indian Metro City Air Quality (PM2.5) Forecaster:
+
+
 This is a Streamlit web application that uses a machine learning model to analyze historical air quality data and forecast future PM2.5 levels for major metropolitan cities in India.
 
 <img width="1918" height="962" alt="ss1" src="https://github.com/user-attachments/assets/0c1be88d-7f8b-4197-a342-2f9f6fa692a5" />
