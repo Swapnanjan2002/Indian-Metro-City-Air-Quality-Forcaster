@@ -9,15 +9,15 @@ This is a Streamlit web application that uses a machine learning model to analyz
 
 Features:
 
-Multi-City Analysis: Select from a dropdown of major Indian cities (Kolkata, Delhi, Mumbai, Chennai, Bengaluru, Ahmedabad, Hyderabad, and Pune) to get a specific forecast.
+   1) Multi-City Analysis: Select from a dropdown of major Indian cities (Kolkata, Delhi, Mumbai, Chennai, Bengaluru, Ahmedabad, Hyderabad, and Pune) to get a specific forecast.
 
-Live Weather Integration: Automatically fetches historical weather data from the Open-Meteo API to provide crucial environmental context to the model.
+   2) Live Weather Integration: Automatically fetches historical weather data from the Open-Meteo API to provide crucial environmental context to the model.
 
-24-Hour Forecast: Generates an hourly forecast for the next 24 hours based on the latest available data.
+   3) 24-Hour Forecast: Generates an hourly forecast for the next 24 hours based on the latest available data.
 
-AQI Conversion: Converts raw PM2.5 predictions into the official Air Quality Index (AQI) and provides clear health advisories.
+   4) AQI Conversion: Converts raw PM2.5 predictions into the official Air Quality Index (AQI) and provides clear health advisories.
 
-Model Insights: Includes detailed performance metrics (RMSE) and visualizations of the model's predictions vs. actuals and feature importances.
+   5) Model Insights: Includes detailed performance metrics (RMSE) and visualizations of the model's predictions vs. actuals and feature importances.
 
 Project Workflow:
 
@@ -77,7 +77,7 @@ How to Run This Project Locally:
    3) Install the dependencies:
 
       pip install -r requirements.txt
-Run the Streamlit app:
+   4) Run the Streamlit app:
 
-streamlit run app.py
+      streamlit run app.py
 
