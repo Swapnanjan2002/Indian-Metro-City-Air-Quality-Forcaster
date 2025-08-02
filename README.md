@@ -40,13 +40,13 @@ A robust data processing pipeline was built to handle the raw data files. This p
 3. Feature Engineering: 
 To improve the model's predictive power, several new features were engineered:
 
-Time-based Features: hour, day_of_week, and month to capture daily, weekly, and seasonal patterns.
+   1) Time-based Features: hour, day_of_week, and month to capture daily, weekly, and seasonal patterns.
 
-Lag Features: The PM2.5 value from 1 hour ago and 24 hours ago to give the model a sense of recent trends.
+   2) Lag Features: The PM2.5 value from 1 hour ago and 24 hours ago to give the model a sense of recent trends.
 
-Rolling Mean Feature: A 3-hour rolling average to capture the short-term trend.
+   3) Rolling Mean Feature: A 3-hour rolling average to capture the short-term trend.
 
-Weather Features: Temperature, Humidity, and Wind Speed are integrated from the Open-Meteo API.
+   4) Weather Features: Temperature, Humidity, and Wind Speed are integrated from the Open-Meteo API.
 
 4. Model Training and Evaluation
    
