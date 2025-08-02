@@ -50,32 +50,33 @@ To improve the model's predictive power, several new features were engineered:
 
 4. Model Training and Evaluation
    
-Model: The project uses a RandomForestRegressor from the scikit-learn library, a powerful ensemble model well-suited for this type of regression task.
+   1) Model: The project uses a RandomForestRegressor from the scikit-learn library, a powerful ensemble model well-suited for this type of regression task.
 
-Training: A new model is trained from scratch on the specific historical data for each city selected by the user.
+   2) Training: A new model is trained from scratch on the specific historical data for each city selected by the user.
 
-Evaluation: The model's performance is evaluated using the Root Mean Squared Error (RMSE) on a held-out test set (the final 20% of the data).
+   3) Evaluation: The model's performance is evaluated using the Root Mean Squared Error (RMSE) on a held-out test set (the final 20% of the data).
+  
+      
 
 How to Run This Project Locally:
 
-Clone the repository:
+   1) Clone the repository:
 
-git clone https://github.com/your-username/your-repository-name.git
-cd your-repository-name
+      git clone https://github.com/your-username/your-repository-name.git
+      cd your-repository-name
 
-Prepare the data:
+   2) Prepare the data:
 
 
-Create a data folder inside the main project directory.
+      Create a data folder inside the main project directory.
 
-Download the hourly PM2.5 data for each city from the CPCB portal.
+      Download the hourly PM2.5 data for each city from the CPCB portal.
 
-Save the files inside the data folder with the correct names (e.g., kolkata_aqi_data.xlsx, delhi_aqi_data.xlsx, etc.).
+      Save the files inside the data folder with the correct names (e.g., kolkata_aqi_data.xlsx, delhi_aqi_data.xlsx, etc.).
 
-Install the dependencies:
+   3) Install the dependencies:
 
-pip install -r requirements.txt
-
+      pip install -r requirements.txt
 Run the Streamlit app:
 
 streamlit run app.py
