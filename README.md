@@ -70,7 +70,7 @@ How to Run This Project Locally:
 
       Create a data folder inside the main project directory.
 
-      Download the hourly PM2.5 data for each city from the CPCB portal.
+      Download the hourly PM2.5 data for each city from the CPCB portal from here.
 
       Save the files inside the data folder with the correct names (e.g., kolkata_aqi_data.xlsx, delhi_aqi_data.xlsx, etc.).
 
