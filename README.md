@@ -70,14 +70,18 @@ How to Run This Project Locally:
 
       Create a data folder inside the main project directory.
 
-      Download the hourly PM2.5 data for each city from the CPCB portal from here.
+      Download the hourly PM2.5 data for each city from the CPCB portal from https://airquality.cpcb.gov.in/ccr/#/caaqm-dashboard-all/caaqm-landing.
+      Click on "Advanced Search". Then select parameter as "2.5", report format as "Tabular", criteria as "1 hour"
+      Select the rest according to your choice and click on submit.
+      Then click on the excel icon to download the .xlsx file.
+      
 
       Save the files inside the data folder with the correct names (e.g., kolkata_aqi_data.xlsx, delhi_aqi_data.xlsx, etc.).
 
-   3) Install the dependencies:
+   4) Install the dependencies:
 
       pip install -r requirements.txt
-   4) Run the Streamlit app:
+   5) Run the Streamlit app:
 
       streamlit run app.py
 
