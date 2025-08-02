@@ -29,13 +29,13 @@ The project uses hourly PM2.5 data obtained from the official Central Pollution 
 2. Data Cleaning and Preparation: 
 A robust data processing pipeline was built to handle the raw data files. This pipeline:
 
-Automatically detects the correct header row.
+   1) Automatically detects the correct header row.
 
-Standardizes column names.
+   2) Standardizes column names.
 
-Converts date and time information into a proper datetime format.
+   3) Converts date and time information into a proper datetime format.
 
-Intelligently handles missing values using the forward-fill method.
+   4) Intelligently handles missing values using the forward-fill method.
 
 3. Feature Engineering: 
 To improve the model's predictive power, several new features were engineered:
